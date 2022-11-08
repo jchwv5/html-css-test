@@ -178,7 +178,7 @@ progress {
   display: flex;
   flex-direction: column;
   flex: .5;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .image-container {
