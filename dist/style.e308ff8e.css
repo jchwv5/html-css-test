@@ -128,17 +128,37 @@ progress {
   display: flex;
   flex: .5;
   margin: 1em;
+  align-items: center;
+  align-self: center;
+  align-content: center;
 }
 
 .subsection-one-two {
   display: flex;
   flex: .5;
   flex-direction: column;
+  align-items: center;
+}
+
+.section-two {
+  flex: .1;
+  align-self: center;
+}
+
+.section-three {
+  margin: 2em;
+  display: flex;
+  flex: .4;
+  flex-direction: row;
 }
 
 .text-container {
   flex: .5;
   margin-top: 7em;
+}
+
+.image-container {
+  flex: .5;
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
