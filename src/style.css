@@ -65,6 +65,10 @@ button, input, optgroup, select, textarea {
   font-size: 100%; 
   line-height: 1.15; 
   margin: 0; 
+  background-color: green;
+  border: 1;
+  border-radius: 6px;
+  padding: 1em;
 }
 
 button, select { 
@@ -128,9 +132,6 @@ progress {
   display: flex;
   flex: .5;
   margin: 1em;
-  align-items: center;
-  align-self: center;
-  align-content: center;
 }
 
 .subsection-one-two {
@@ -152,9 +153,28 @@ progress {
   flex-direction: row;
 }
 
-.text-container {
+.text-container-top {
   flex: .5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   margin-top: 7em;
+  padding-right: 3em;
+}
+
+.text-container-bottom {
+  flex: .5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7em;
+  padding-right: 3em;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  flex: .5;
+  justify-content: flex-end;
 }
 
 .image-container {
